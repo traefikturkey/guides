@@ -3,10 +3,10 @@
 
  ![image](https://user-images.githubusercontent.com/219478/180890260-c862d9e2-c67e-4698-bc2e-6967ce7ab63f.png)
  
-    a. Select EdDSA <br>
-    b. Click Generate <br>
-    c. Set your email in the Key Comment field <br>
-    d. Copy public key <br>
+    a. Select EdDSA 
+    b. Click Generate 
+    c. Set your email in the Key Comment field 
+    d. Copy public key 
     
 3. Run the following commands
 
