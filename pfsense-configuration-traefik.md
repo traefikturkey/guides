@@ -27,7 +27,7 @@ make enable-external pfsense
 
 ![image](https://user-images.githubusercontent.com/1687761/180989245-fa7c8c98-51b3-44fb-804d-8c7290dcf94f.png)
 
-2. 
+2. Find alternate hostnames
 
 ![image](https://user-images.githubusercontent.com/1687761/180988304-be7d269f-0c07-4c6e-8006-2cbe5be515de.png)
 
