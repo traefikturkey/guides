@@ -1,6 +1,19 @@
-### Avoiding DNS Rebind errors for PFsense when used with traefik
+# Adding PFsense to traefik
 
-#### Make sure you have your PFsense hostname added to your local DNS resolver/forwarder, joyride can only do docker lables
+### Make sure you have your PFsense FQDN added to your local DNS resolver/forwarder, as Joyride can only do docker lables.
+
+1. Add your pfsense IP/HOSTNAME to your .env file and uncomment the line
+
+![image](https://user-images.githubusercontent.com/1687761/180992872-63bf1ac2-d414-4384-bd69-94b8b81e0b5f.png)
+
+2. Enable the external service using :
+ 
+```
+make enable-external pfsense
+```
+
+
+## Avoiding DNS Rebind errors for PFsense when used with traefik
 
 #### Add your FQDN to your PFsense as a hostname 
 
