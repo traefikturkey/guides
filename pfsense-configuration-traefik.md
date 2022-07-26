@@ -1,6 +1,6 @@
 # Adding PFsense to traefik
 
-### Make sure you have your PFsense FQDN added to your local DNS resolver/forwarder, as Joyride can only do docker lables.
+### Make sure you have your PFsense FQDN added to your local DNS resolver/forwarder.
 
 1. Add your pfsense IP/HOSTNAME to your .env file and uncomment the line
 
@@ -31,7 +31,7 @@ make enable-external pfsense
 
 ![image](https://user-images.githubusercontent.com/1687761/180988304-be7d269f-0c07-4c6e-8006-2cbe5be515de.png)
 
-#### (Optional) Change the port of the PFsense webConfigurator
+## (Optional) Change the port of the PFsense webConfigurator
 
 1. Go to the same page as described in the optional setup above and find TCP port
 
