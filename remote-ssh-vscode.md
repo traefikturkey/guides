@@ -1,7 +1,7 @@
-#### Set up SSH keys 
+#### Generate an ssh key:
 
-1. Make sure you have a public and a private SSH key, and that the public is installed on the remote host 
-and that your private is located in your .ssh folder at your users root.
+ * [Windows](https://github.com/traefikturkey/guides/blob/master/generate-ssh-key-windows.md)
+ * [Linux](https://github.com/traefikturkey/guides/blob/master/generate-ssh-key-linx.md)
 
 #### Install Remote-SSH Extension and Remote - SSH: Editing Configuration Files
 1. [Remote-SSH VSCode ](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh )
