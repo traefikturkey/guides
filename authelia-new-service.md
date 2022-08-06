@@ -1,4 +1,4 @@
-# How to add a new service to authelia via docker lables and traefik middlewares
+# How to add a new service to authelia via docker labels and traefik middlewares
 
 0. Remember to generate a new password for your authelia user in the users_database.yml / Reset it and set a new one
 
